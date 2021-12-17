@@ -1,0 +1,18 @@
+.container{
+    width:88%;
+    margin: auto;
+    padding: 2.6rem;
+    @media (#{$maxMobile}) {
+        width: 100%;
+      
+    }
+}
+// @media #{$minSmall} {
+    
+// }
+// @media #{$minMedium} {
+    
+// }
+// @media #{$minLarge} {
+    
+// }

@@ -1,0 +1,45 @@
+body{
+    background-color: #000;
+    color: $mainColor;
+    font-family: 'Montserrat';
+}
+.d-flex{
+    .card{
+        background-color:transparent;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 9rem;
+    
+    }
+    >div{
+        @media (#{$maxMobile}) {
+            width: 100%;
+            flex-direction: column;
+        }
+        margin: auto;
+    }
+
+    p{
+        color: $secondColor;
+    }
+    h5{
+        font-weight: bolder;
+    }
+}
+h1{
+    
+    height: 13rem;
+}
+
+li{
+    font-size: .8rem;    
+    a{
+        transition: .4s;
+    &:hover{
+        text-decoration: none;
+        color: $secondColor ;
+    }
+    }
+}
+
