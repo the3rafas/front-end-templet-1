@@ -1,0 +1,747 @@
+.l-btn, .r-btn {
+  font-size: 2rem;
+  color: rgba(51, 51, 51, 0.678);
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+}
+
+.none {
+  display: none !important;
+}
+
+.margin-r {
+  margin-right: 1rem;
+  transition: 0.4s;
+}
+.margin-r:hover {
+  color: #e4b96c;
+}
+
+.active {
+  color: #e4b96c !important;
+  position: relative;
+}
+.active a {
+  color: #e4b96c !important;
+}
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3rem;
+  width: 1rem;
+  height: 1px;
+  background-color: #e4b96c;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.div-1 {
+  background-image: url("../../../images/photo1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-1 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-1 h1 span {
+  color: #e4b96c;
+}
+
+.div-2 {
+  background-image: url("../../../images/photo2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-2 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-2 h1 span {
+  color: #e4b96c;
+}
+
+.div-3 {
+  background-image: url("../../../images/photo3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-3 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-3 h1 span {
+  color: #e4b96c;
+}
+
+.div-4 {
+  background-image: url("../../../images/photo4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-4 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-4 h1 span {
+  color: #e4b96c;
+}
+
+.div-5 {
+  background-image: url("../../../images/photo5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-5 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-5 h1 span {
+  color: #e4b96c;
+}
+
+.div-6 {
+  background-image: url("../../../images/photo6.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-6 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-6 h1 span {
+  color: #e4b96c;
+}
+
+.div-7 {
+  background-image: url("../../../images/photo7.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-7 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-7 h1 span {
+  color: #e4b96c;
+}
+
+.div-8 {
+  background-image: url("../../../images/photo8.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-8 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-8 h1 span {
+  color: #e4b96c;
+}
+
+.div-9 {
+  background-image: url("../../../images/photo9.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-9 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-9 h1 span {
+  color: #e4b96c;
+}
+
+.div-10 {
+  background-image: url("../../../images/photo10.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-10 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-10 h1 span {
+  color: #e4b96c;
+}
+
+.div-11 {
+  background-image: url("../../../images/photo11.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-11 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-11 h1 span {
+  color: #e4b96c;
+}
+
+.div-12 {
+  background-image: url("../../../images/photo12.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-12 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-12 h1 span {
+  color: #e4b96c;
+}
+
+.div-13 {
+  background-image: url("../../../images/photo13.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-13 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-13 h1 span {
+  color: #e4b96c;
+}
+
+.div-14 {
+  background-image: url("../../../images/photo14.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-14 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-14 h1 span {
+  color: #e4b96c;
+}
+
+.div-15 {
+  background-image: url("../../../images/photo15.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-15 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-15 h1 span {
+  color: #e4b96c;
+}
+
+.div-16 {
+  background-image: url("../../../images/photo16.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-16 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-16 h1 span {
+  color: #e4b96c;
+}
+
+.div-17 {
+  background-image: url("../../../images/photo17.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-17 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-17 h1 span {
+  color: #e4b96c;
+}
+
+.div-18 {
+  background-image: url("../../../images/photo18.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-18 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-18 h1 span {
+  color: #e4b96c;
+}
+
+.div-19 {
+  background-image: url("../../../images/photo19.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-19 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-19 h1 span {
+  color: #e4b96c;
+}
+
+.div-20 {
+  background-image: url("../../../images/photo20.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-20 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-20 h1 span {
+  color: #e4b96c;
+}
+
+.div-21 {
+  background-image: url("../../../images/photo21.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-21 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-21 h1 span {
+  color: #e4b96c;
+}
+
+.div-22 {
+  background-image: url("../../../images/photo22.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-22 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-22 h1 span {
+  color: #e4b96c;
+}
+
+.div-23 {
+  background-image: url("../../../images/photo23.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-23 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-23 h1 span {
+  color: #e4b96c;
+}
+
+.div-24 {
+  background-image: url("../../../images/photo24.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-24 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-24 h1 span {
+  color: #e4b96c;
+}
+
+.div-25 {
+  background-image: url("../../../images/photo25.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-25 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-25 h1 span {
+  color: #e4b96c;
+}
+
+.div-26 {
+  background-image: url("../../../images/photo26.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-26 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-26 h1 span {
+  color: #e4b96c;
+}
+
+.div-27 {
+  background-image: url("../../../images/photo27.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-27 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-27 h1 span {
+  color: #e4b96c;
+}
+
+.div-28 {
+  background-image: url("../../../images/photo28.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-28 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-28 h1 span {
+  color: #e4b96c;
+}
+
+.div-29 {
+  background-image: url("../../../images/photo29.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.div-29 h1 {
+  width: 65%;
+  font-size: 3rem;
+}
+.div-29 h1 span {
+  color: #e4b96c;
+}
+
+.btn {
+  border: none !important;
+  padding: 0 !important;
+  margin-bottom: 3rem;
+  color: #e4b96c;
+  margin-left: 1rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btn i {
+  color: #e4b96c;
+  font-size: 0.7rem;
+  transition: all 0.5s;
+}
+.btn a {
+  color: #e4b96c;
+  margin-left: 1rem;
+  transition: all 0.5s;
+}
+.btn:hover i {
+  margin-left: 0.9rem;
+}
+.btn:hover a {
+  margin-left: 0rem;
+}
+
+.btn-2 {
+  border: none !important;
+  padding: 0 !important;
+  margin-bottom: 3rem;
+}
+.btn-2 i {
+  margin: 0.5rem;
+  font-size: 0.9rem !important;
+  transition: all 0.5s;
+  display: inline !important;
+}
+.btn-2 a {
+  color: white;
+  margin-left: 1rem;
+  transition: all 0.5s;
+}
+.btn-2:hover i {
+  color: #e4b96c;
+}
+.btn-2:hover a {
+  color: #e4b96c;
+}
+
+.r-btn {
+  right: -8px;
+}
+
+.l-btn {
+  left: 7px;
+}
+
+body {
+  background-color: #000;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.fram-ul {
+  list-style: none;
+}
+.fram-ul li {
+  font-size: 1.2rem;
+  position: relative;
+  transition: all 1s;
+  cursor: pointer;
+}
+.fram-ul li:hover {
+  transition: 1s;
+}
+.fram-ul li:hover::after {
+  content: "";
+  position: absolute;
+  width: 0.8rem;
+  height: 0.1rem;
+  background-color: #e4b96c;
+  left: 0;
+  bottom: 0;
+  transition: 1s;
+}
+
+.float {
+  position: relative;
+  overflow: hidden;
+  transition: all 1S;
+}
+.float > div:not(:first-child) {
+  position: absolute;
+  top: 24rem;
+  left: 0;
+  background-color: #000;
+  z-index: 0;
+  transition: all 1S;
+}
+
+.active-li {
+  color: #e4b96c;
+}
+.active-li::after {
+  content: "";
+  position: absolute;
+  width: 4rem;
+  height: 0.1rem;
+  background-color: #e4b96c;
+  left: 0;
+  bottom: 0;
+  transition: 1s;
+}
+
+.container {
+  max-width: 1267px;
+}
+
+.line {
+  position: relative;
+}
+.line::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.4rem;
+  width: 2rem;
+  height: 0.1rem;
+  background-color: #e4b96c;
+}
+
+.counter i {
+  color: #e4b96c;
+}
+
+.team h3 span {
+  color: #e4b96c;
+}
+.team i {
+  transition: 0.4s;
+  cursor: pointer;
+}
+.team i:hover {
+  color: #e4b96c;
+}
+
+.spans span {
+  height: 0.2rem;
+  background-color: #e4b96c;
+  position: relative;
+  transition: 2s;
+  width: 30%;
+}
+.spans span::after {
+  content: attr(data-width);
+  padding-left: -1rem;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  height: 2rem;
+  width: 0.02rem;
+  background-color: #e4b96c;
+}
+
+#Ndiv a {
+  cursor: pointer;
+  transition: 0.6s;
+  text-decoration: none;
+  color: white;
+}
+#Ndiv a:hover {
+  color: #e4b96c;
+}
+
+.activee {
+  color: #e4b96c !important;
+}
+
+footer {
+  background-color: #272727;
+}
+footer > div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 1.3;
+  border-bottom: 1px solid #3d3d3d;
+  padding: 2rem !important;
+}
+footer > div > div {
+  display: flex;
+  flex-basis: 22%;
+  flex-direction: column;
+  gap: 2rem;
+}
+footer > div > div h6 {
+  font-size: 1.2rem;
+}
+footer > div > div p {
+  font-size: 0.9rem;
+}
+footer > div > div p span {
+  margin-left: 1rem;
+}
+@media (max-width: 991px) {
+  footer > div .form {
+    flex-basis: 100%;
+  }
+}
+footer > div .form img {
+  width: 4rem;
+}
+footer > div .form div {
+  position: relative;
+}
+footer > div .form div input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #3d3d3d;
+  outline: none;
+  font-size: 0.8rem;
+  transition: 1s;
+  padding: 0.2rem;
+}
+footer > div .form div span {
+  width: 0%;
+  display: block;
+  background-color: #e4b96c;
+  position: absolute;
+  height: 1px;
+  bottom: 0px;
+  transition: 0.8s;
+}
+footer > div .form .btn {
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+footer > div .form .btn i {
+  color: white;
+  font-size: 0.8rem;
+}
+footer > div .form .btn a {
+  color: white;
+}
+footer > div .form .btn:hover i {
+  margin-left: 0.7rem;
+  color: #e4b96c;
+}
+footer > div .form .btn:hover a {
+  margin-left: 0.6rem !important;
+  color: #e4b96c;
+}
+@media (max-width: 991px) {
+  footer > div .adress {
+    flex-basis: 32%;
+    margin: 2rem 0;
+  }
+}
+@media (max-width: 767px) {
+  footer > div .adress {
+    flex-basis: 100%;
+    margin: 2rem 0;
+  }
+}
+@media (max-width: 991px) {
+  footer .posts {
+    flex-basis: 32%;
+    margin: 2rem 0;
+  }
+}
+@media (max-width: 767px) {
+  footer .posts {
+    flex-basis: 100%;
+  }
+}
+footer .posts div {
+  font-size: 0.9rem;
+}
+footer .posts div a {
+  transition: 0.4s;
+  display: block;
+  color: #a1a1a1;
+  display: block;
+  font-weight: bold;
+}
+footer .posts div a:hover {
+  color: #e4b96c;
+}
+@media (max-width: 991px) {
+  footer .comments {
+    flex-basis: 32%;
+    margin: 2rem 0;
+  }
+}
+@media (max-width: 767px) {
+  footer .comments {
+    flex-basis: 100%;
+  }
+}
+footer .comments div {
+  font-size: 0.9rem;
+  color: #a1a1a1;
+  font-weight: bolder;
+}
+footer .comments div a {
+  transition: 0.4s;
+  color: white;
+  font-weight: normal;
+}
+footer .comments div a:hover {
+  color: #e4b96c;
+}
+footer .end {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 0.7rem;
+  color: #898989;
+}
+footer .end a {
+  color: #898989;
+  transition: 0.4s;
+}
+footer .end a:hover {
+  color: #e4b96c;
+}
+
+/*# sourceMappingURL=aboutUs.css.map */
